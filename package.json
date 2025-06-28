@@ -7,7 +7,7 @@
     "start": "node dist/index.js",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js"
  }
-  },
+},
   "dependencies": {
     "@cosmjs/stargate": "^0.28.0",
     "dotenv": "^16.0.0",
