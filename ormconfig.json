@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "url": "${POSTGRES_URL}",
+  "entities": ["dist/entity/**/*.js"],
+  "migrations": ["dist/migrations/**/*.js"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migrations"
+  },
+  "synchronize": false
+}
